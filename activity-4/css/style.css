@@ -1,0 +1,149 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+}
+
+.section-ab{
+    
+  
+    
+      margin-top: 100px;
+}
+
+.icon-1{
+    
+     margin-left: 60px;
+    
+}
+.out-patient{
+    
+    background-color: #0a8cbd;
+    
+}
+.out-patient a {
+    text-decoration:none;
+    color: white;
+    font-size: 16px;
+}
+
+
+.admitted{
+    
+     background-color:#20acbb;
+}
+.admitted a {
+    text-decoration:none;
+    color: white;
+    font-size: 16px;
+}
+.search{
+    
+   
+   background-color: #f1efef;
+}
+.search-text{
+    
+    margin-top: 5px;
+}
+.admin{
+    
+    background-color: black;
+   text-align: center;
+     
+         border:0px solid #428bca;
+
+ 
+  margin-bottom: 2px;
+    margin-top: 5px;
+    margin-left: 2px;
+
+}
+.admin a{
+ text-decoration: none;
+    color: white;
+}
+.table-text-a{
+    
+    font-weight: bold;
+    color: #4285c2;
+    font-size: 15px;
+}
+
+
+.link-a a:hover{
+    
+   text-decoration: none;
+    color:cornflowerblue;
+}
+
+
+
+.table-text-b{
+  font-size: 13px;  
+    
+}
+.table-text-bc{
+    
+    color: #5385cb;
+    font-size: 13px;
+}  
+.table-row{
+    
+    background-color: #f0f0f0;
+}
+.apply{
+    
+    width:120px;  
+    height: 30px;
+    background-color: white;
+     border:1px solid #c1bdbd;
+ margin: 0px 0px 0px 0px;
+    border-radius: 5px 5px 5px 5px;}
+
+
+.dropbtn {
+   
+    color: #4285c2;
+     font-weight: bold;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+   
+  
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #dfdfdf;
+    min-width: 160px;
+    overflow: auto;
+
+    border: 1px solid black;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 4px 4px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1;
+
+     text-decoration: none;
+}
+
+.show {display:block;}
+
+
+

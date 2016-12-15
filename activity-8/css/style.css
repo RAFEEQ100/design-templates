@@ -1,0 +1,145 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+}
+
+.section-ab{
+    
+  
+    
+      margin-top: 105px;
+}
+.icon-1{
+    
+     margin-left: 60px;
+}
+.admin{
+    
+    background-color: black;
+   text-align: center;
+     
+         border:0px solid #428bca;
+
+ 
+  margin-bottom: 2px;
+    margin-top: 5px;
+    margin-left: 2px;
+
+}
+.admin a{
+ text-decoration: none;
+    color: white;
+}
+    
+.admin a:hover{
+    
+    text-decoration: none;
+}
+.section-ac{
+    
+    background-color: #428bca;
+}
+
+.section-ac h5{
+    
+    color: white;
+    font-weight:bold;
+}
+
+.new-abc{
+    
+   text-decoration: underline;
+    color: white;
+}
+.section-aq{
+    
+    background-color:#f7f7f7;
+    margin-top: 5px;
+    margin: 5px;
+}
+.section-e{
+    
+    background-color:#f7f7f7;
+    
+}
+
+#wgtmsr{
+ width:130px;  
+    height: 30px;
+   
+     
+     border:1px solid #6c6c6c;
+ margin:10px 0px 5px 0px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #eeeeee;
+    font-weight: bold;
+    
+}
+.apply-1{
+    
+    width:130px;  
+    height: 30px;
+    margin: 10px 0px 5px 0px;
+     border:1px solid #6c6c6c;
+
+    border-radius: 5px 5px 5px 5px;
+   
+}
+
+.apply-12{
+    
+    width:130px;  
+    height: 30px;
+    margin: 10px 0px 5px 0px;
+     border:1px solid #6c6c6c;
+
+    border-radius: 5px 5px 5px 5px;
+    background-color: #eeeeee;
+}
+#wgtmsrm-a{
+    
+     width:130px;  
+    height: 30px;
+   
+     margin: 10px 0px 5px 0px;
+     border:1px solid #6c6c6c;
+
+    border-radius: 5px 5px 5px 5px;
+   
+    
+}
+.text-aa{
+    
+ 
+    margin:10px 0px 0px 0px;
+    font-size:14px;
+
+}
+#wgtmsrm-ac{
+    
+    width:100px;  
+    height: 30px;
+   
+     margin: 10px 0px 5px 0px;
+     border:1px solid #6c6c6c;
+
+    border-radius: 5px 5px 5px 5px;
+}
+.icon-8{
+    
+    margin:10px 0px;
+}
+.apply-13{
+    
+    width:60px;  
+    height: 30px;
+    margin: 10px 0px 5px 0px;
+     border:1px solid #6c6c6c;
+
+    border-radius: 5px 5px 5px 5px;
+    
+}
+.section-n{
+    border:1px solid #428bca;
+}

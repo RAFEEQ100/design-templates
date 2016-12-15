@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+    <title>starcare</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="image/logo1.png">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    </head>
+    
+    <body>
+    
+    <style>
+  .navbar {
+      margin-bottom: 0px;
+      background-color: #fff;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 2px;
+      border-radius: 0;
+      font-weight: bold;
+      font-family: Montserrat, sans-serif;
+      height: 100px;
+      border-bottom: 0px solid #b1b5b7;
+      box-shadow: 1px 1px 2px 2px #c9c9c9;
+  }
+  .navbar li a, .navbar .navbar-brand{
+      color: black !important;
+      
+      font-size: 14px;
+      top:17px;
+	  
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #7cdcff!important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+
+  }
+  
+  .ctxt{
+  margin-bottom:15em;
+  }
+    </style>
+        
+        <div class="row">
+        
+         <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <span class="navbar-brand"><img src="image/logo1.png" height="60px" width="100px"></span>
+      <span class="navbar-brand">STARCARE HOSPITAL <br> KOZHIKODE Pvt Ltd</span>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+       
+        <li><a href=""><img src="image/home.PNG" width="75" height="25"></a></li>
+        <li><a href=""><img src="image/tasks.png" width="75" height="25"></a></li>
+        <li><a href=""><img src="image/QUICK.png" width="85" height="25"></a></li>
+        <li><a href=""><img src="image/SETTINGS.png" width="75" height="25"></a></li>
+          <li><a href=""><img src="image/DASH.png" width="75" height="25"></a></li>
+      </ul>
+    </div>
+  </div>
+</nav> 
+        
+        </div>
+        
+       <div class="container-fluid section-ab">
+      <div class="col-md-1"><img class="icon-1" src="image/icon-1.png" height="30px" width="30px;"></div>
+      <div class="col-md-1"><h5 ><b>Procurment</b></h5></div>
+      <div class="col-md-7"></div>
+      <div class="col-md-1 admin"><a href="">Orthopaedics</a></div>
+      <div class="col-md-1 admin"><a href="">admin</a></div>
+        </div>
+        
+        
+        <div class="container-fluid">
+        
+       
+            <div class="col-md-12 purchase-div">
+            <div class="col-md-2"><h6><b>Purchase Order</b></h6></div>
+            <div class="col-md-4"></div>
+            <div class="col-md-3"><h5>View All <b>Convert</b> Account Summary</h5></div>
+            <div class="col-md-3"></div>
+            </div>
+            
+            
+                <div class="col-md-12 section-3">
+            <div class="col-md-6">
+            <div class="row">
+            <div class="col-md-4"><p class="text-aa">PO Type*</p></div>
+            <div class="col-md-8"><select name="wgtmsr" id="wgtmsr">
+      <option value="name">Direct Purchase Order</option>
+       </select> </div>
+            </div>
+            
+            
+            <div class="row">
+            <div class="col-md-4"><p class="text-aa">Vendor*</p></div>
+            <div class="col-md-8"><input class="apply-1" type="text" name="" placeholder=""></div>
+            </div>
+                
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-8">
+                    <img src="image/question.PNG">
+                    </div>
+                </div>
+            
+            <div class="row">
+            <div class="col-md-4"><p class="text-aa">Ref Doc Date</p></div>
+            <div class="col-md-8"><input class="apply-1" type="date" name="" placeholder=""></div>
+            </div>
+            
+            <div class="row">
+            <div class="col-md-4"><p class="text-aa">Net Amount</p></div>
+            <div class="col-md-8"><input class="appply" type="text" name="" placeholder="Rs.0.000"></div>
+            </div>
+            
+            <div class="row">
+            <div class="col-md-4"><p class="text-aa">Valid Till</p></div>
+            <div class="col-md-8"><input class="apply-1" type="date" name="" placeholder=""></div>
+            </div>
+            
+            <div class="row">
+            <div class="col-md-4"><p class="text-aa">Discount Amount</p></div>
+            <div class="col-md-8"><input class="apply-1" type="text" name="" placeholder="0.0000"></div></div>
+             
+                <div class="row">
+            <div class="col-md-4"><p class="text-aa">Discount Percentage</p></div>
+                <div class="col-md-8"><input class="apply-1" type="text" name="" placeholder="0.0"></div></div>
+                
+                <div class="row">
+            <div class="col-md-4"><p class="text-aa">Tax Code</p></div>
+            <div class="col-md-8"><select name="wgtmsrm-a" id="wgtmsrm-a">
+             <option value="name">--Select--</option>
+                <option value="name">--Select--</option></select></div></div>
+            
+            
+            </div>
+                
+                
+                <div class="col-md-6">
+                
+                    <div class="row">
+            <div class="col-md-4"><p class="text-aa">Store*</p></div>
+            <div class="col-md-8"><select name="wgtmsrm-a" id="wgtmsrm-a">
+             <option value="name">--Select--</option>
+                <option value="name">--Select--</option></select></div></div>
+                
+                    <div class="row">
+            <div class="col-md-4"><p class="text-aa">Reference Doc Number</p></div>
+            <div class="col-md-8"><input class="apply-1" type="text" name="" placeholder=""></div>
+            </div>
+                    <br>
+                    <div class="row">
+            <div class="col-md-4"><p class="text-aa">Purchase Organisation*</p></div>
+            <div class="col-md-8"><select name="wgtmsrm-a" id="wgtmsrm-a">
+             <option value="name">Material Managment</option>
+                </select></div></div>
+                    
+                    <div class="row">
+            <div class="col-md-4"><p class="text-aa">Current Code</p></div>
+            <div class="col-md-8"><select name="wgtmsrm-a" id="wgtmsrm-a">
+             <option value="name">Indian Rupees</option>
+                </select></div></div>
+                    
+                    <div class="row">
+            <div class="col-md-4"><p class="text-aa">Current Exchange Rate</p></div>
+                <div class="col-md-8"><input class="apply-1" type="text" name="" placeholder="1.0"></div></div>
+                    
+                    <div class="row">
+            <div class="col-md-4"><p class="text-aa">In NonStock</p></div>
+                        <div class="col-md-8"><label><input type="checkbox" name="checkbox" value="value"></label>
+                </div></div>
+                
+                <div class="row">
+            <div class="col-md-4"><p class="text-aa">Account Code</p></div>
+                </div></div>
+                    
+                    
+              </div>
+           
+            
+            <div class="col-md-12">
+               
+               
+                <div class="col-md-offset-8 col-md-4">
+                <div class="col-md-3 text-52"><h6><a href="">Adress</a></h6></div>
+                <div class="col-md-4 text-5"><h6><a href="">Other Details</a></h6></div>
+                <div class="col-md-4 text-5"><h6><a href="">Imported Items</a></h6></div>
+                </div>
+            
+            </div>
+            
+            <div class="col-md-12 bord">
+            
+            </div>
+            
+            
+            <div class="col-md-12 bored-a">
+               
+               
+                <div class="col-md-offset-6 col-md-6">
+                <div class="col-md-2 text-52"><h6><a href="">ITEMS</a></h6></div>
+                <div class="col-md-3 text-5"><h6><a href="">Billing Structure</a></h6></div>
+                <div class="col-md-3 text-5"><h6><a href="">Terms and Condition</a></h6></div>
+                <div class="col-md-3 text-5"><h6><a href="">Advanced Request</a></h6></div>
+                </div>
+            
+            </div>
+            
+            
+            <div class="container-fluid">
+            <div class="col-md-12 section-e">
+                <div class="col-md-12">
+                <div class="row">
+                    
+                    <div class="col-md-6">
+                        <div class="table-responsive">
+                    <table class="table table-bordered">
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td>Item Name</td>
+                    <td>Quality</td>
+                    <td>Rate</td>
+                    <td>Discount%</td>
+                    <td>Action</td>
+                    
+                    
+                </tr>
+                        </tbody> </table></div>
+                    </div>
+                    
+                    <div class="col-md-6 bord-2">
+                      <div class="row"><div class="col-md-12">  <p class="select">Selected Line Item</p></div></div>
+                        
+                        <div class="row">
+                    <div class="col-md-8">
+                        
+                        <p>Source Document Nember</p>
+                        <p>Source Document Date</p>
+                        <p>Item Code</p>
+                        <p>Source Quality</p>
+                        <p>Pending Quality</p>
+                        <p>Quality</p>
+                        <p>Short Clsoe quantity</p>
+                        
+                        
+                        </div> 
+                         
+                        <div class="col-md-1">
+                        
+                        
+                        <h4>:</h4>
+                        <h4>:</h4>
+                        <h4>:</h4>
+                        <h4>:</h4>
+                        <h4>:</h4>
+                        <h4>:</h4>
+                        <h4>:</h4>
+                        
+                        </div>
+                        <div class="col-md-3"></div></div>
+                    </div>
+                    </div>
+                
+                
+                </div>
+                
+                
+                </div>
+            
+            </div>
+        </div>
+    </body>
+</html>

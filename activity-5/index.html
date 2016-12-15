@@ -1,0 +1,421 @@
+<!DOCTYPE hrml>
+<html>
+<head>
+    <title>starcare</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="image/logo1.png">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    </head>
+    
+    
+    <body>
+    <div class="container-fluid">
+        
+        
+            <div class="col-md-12 header">
+            
+        <div class="col-md-2">Result Processing</div>
+        <div class="col-md-9"></div>
+        <div class="col-md-1">Work List</div>
+        </div>
+        
+     
+        <div class="container-fluid">
+        <div class="row mrn-text">
+            <div class="col-md-2">
+            <div class="col-md-3"><p class="text-a">MRN</p></div>
+            <div class="col-md-9"><input class="apply" type="text" name="" placeholder=""></div>
+            
+            </div>
+            <div class="col-md-2">
+            <div class="col-md-5"><p class="text-a">Laboratory</p></div>
+            <div class="col-md-7"><input class="apply" type="text" name="" placeholder=""></div>
+            </div>
+            <div class="col-md-2">
+            
+            <div class="col-md-5"><p class="text-a">Investigation</p></div>
+            <div class="col-md-7"><input class="apply" type="text" name="" placeholder=""></div>
+            
+            </div>
+            <div class="col-md-2">
+            
+            <div class="col-md-3"><p class="text-a">Sample Id</p></div>
+            <div class="col-md-9"><input class="apply" type="text" name="" placeholder=""></div>
+            </div>
+            <div class="col-md-2">
+            
+            <div class="col-md-3"><p class="text-a">Patient Name</p></div>
+            <div class="col-md-9"><input class="apply" type="text" name="" placeholder=""></div>
+            </div>
+            <div class="col-md-2">
+            
+            <div class="col-md-4"><p class="text-a">Speciman</p></div>
+            <div class="col-md-8"><input class="apply" type="text" name="" placeholder=""></div>
+            </div>
+            
+            </div>
+        
+        </div>
+        
+        
+        <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+            <div class="col-md-3"><p class="text-a">Priority</p></div>
+            <div class="col-md-9"><input class="apply" type="text" name="" placeholder=""></div>
+            
+            </div>
+            <div class="col-md-2">
+            <div class="col-md-5"><p class="text-a">Date</p></div>
+            <div class="col-md-7"><input class="apply" type="date" name="" placeholder=""></div>
+            </div>
+            <div class="col-md-2">
+            
+            <div class="col-md-5"><p class="text-a">TO</p></div>
+            <div class="col-md-7"><input class="apply" type="date" name="" placeholder=""></div>
+            
+            </div>
+            <div class="col-md-2">
+            
+            <div class="col-md-3"><p class="text-a">profile</p></div>
+            <div class="col-md-9"><input class="apply" type="text" name="" placeholder=""></div>
+            </div>
+            <div class="col-md-2">
+            
+            <div class="col-md-3"><p class="text-a">Accesion No</p></div>
+            <div class="col-md-9"><input class="apply" type="text" name="" placeholder=""></div>
+            </div>
+            <div class="col-md-2">
+            <div class="col-md-5 new-a"><a href="">Search</a></div>
+            <div class="col-md-7"></div>
+            
+            </div>
+            
+            </div>
+        
+        </div>
+        
+        
+        </div>
+        
+        <div class="col-md-12">
+            
+        <div class="col-md-2 new-a"><a href="">Result Pending or Re test</a></div>
+        <div class="col-md-2 new-a"><a href="">Result Enterd</a></div>
+        <div class="col-md-2 new-a"><a href="">Result Certified</a></div>
+        <div class="col-md-2 new-a"><a href="">Result Rectified</a></div>
+        <div class="col-md-2 new-a"><a href="">Result Interfaced</a></div>
+        
+        </div>
+        
+        
+            <div class="row row-per">
+            <div class="col-md-9"></div>
+                <div class="col-md-2">
+            <div class="col-md-10">Rows Per Page</div>
+        <div class="col-md-1">
+             <form>
+  <select name="number">
+    <option value="">20<option>
+    <option value="">21<option>
+    <option value="">22<option>
+    <option value="">23<option>
+    <option value="">24<option>
+    <option value="">25<option>
+    </select>
+ </form></div></div>
+        </div>
+        
+        
+        
+        <div class="container-fluid">
+            
+           <div class="col-md-11">
+        <div class="panel panel-default">
+  
+    
+
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead class="heading">
+                <tr>
+                    <td></td>
+                    <th></th>
+                    <th>Sample ID</th>
+                    <th>Ordered Doctor</th>
+                    <th>Investigation</th>
+                    <th>Result</th>
+                    <th>Status</th>
+                    <th>Remark</th>
+                    <th>Internal Comment</th>
+                    <th>Action</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label><input type="checkbox" name="checkbox" value="value"></label></td>
+                    <td><div class="link-a">
+                        
+                        
+                        <p class="table-text-a"><a href=""><img src="image/table-icon.PNG"></a></p></div></td>
+                    <td><p>BC2211600007|SCK0000553</p>
+                        
+                        
+                        
+                        <div class="dropdown">
+                        <div  class="dropbtn" onclick="myFunction()">Mr.KADHEEJA.M.N.F</div>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Patient Chart</a>
+    <a href="#">Start Consultation</a>
+    <a href="#">Orders</a>
+    <a href="#">Inactivate Patient</a>
+    <a href="#">Progress Notes</a>
+    <a href="#">POMR</a>
+    <a href="#">Order Printing</a>
+    <a href="#">Infection Recording</a>
+    <a href="#">Infection Recording</a>
+    <a href="#">Marked For Discharge</a>
+    <a href="#">Patient transter</a>
+    <a href="#">Bed Swap</a>
+  </div>
+</div>
+                        
+                        
+                        <P>SCK MICU2, IP-001</P></td>
+                    
+                    
+                    
+                    
+                    <td>Abdulla Cheriyakath</td>
+                    <td><p class="red-text">POTASSIUM(K+)</p></td>
+                    <td> <input class="appply" type="text" name="" placeholder="4.3"></td>
+                    <td>RC</td>
+                    <td><input class="apply-1" type="text" name="" placeholder=""></td>
+                    <td><input class="apply-1" type="text" name="" placeholder=""></td>
+                    <td>Select</td>
+                </tr>
+                
+                <tr>
+                    <td><label><input type="checkbox" name="checkbox" value="value"></label></td>
+                    <td><div class="link-a"><p class="table-text-a"><a href=""><img src="image/table-icon.PNG"></a></p></div></td>
+                    <td><p>BC2211600007|SCK0000553</p>
+                        
+                        <div class="dropdown">
+                        <div  class="dropbtn" onclick="myFunction()">Mr.KADHEEJA.M.N.F</div>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Patient Chart</a>
+    <a href="#">Start Consultation</a>
+    <a href="#">Orders</a>
+    <a href="#">Inactivate Patient</a>
+    <a href="#">Progress Notes</a>
+    <a href="#">POMR</a>
+    <a href="#">Order Printing</a>
+    <a href="#">Infection Recording</a>
+    <a href="#">Infection Recording</a>
+    <a href="#">Marked For Discharge</a>
+    <a href="#">Patient transter</a>
+    <a href="#">Bed Swap</a>
+  </div>
+</div>
+                        
+                        <P>SCK MICU2, IP-001</P></td>
+                    <td>Abdulla Cheriyakath</td>
+                    <td><p class="red-text">SODIUM(Na+)</p></td>
+                    <td> <input class="appply" type="text" name="" placeholder="136"></td>
+                    <td>RC</td>
+                    <td><input class="apply-1" type="text" name="" placeholder=""></td>
+                    <td><input class="apply-1" type="text" name="" placeholder=""></td>
+                    <td>Select</td>
+                    
+                </tr>
+                
+                <tr>
+                    <td><label><input type="checkbox" name="checkbox" value="value"></label></td>
+                    <td><div class="link-a"><p class="table-text-a"><a href=""><img src="image/table-icon.PNG"></a></p></div></td>
+                    <td><p>HA22111600011|SCK000000112</p>
+                        
+                        
+                        
+                        <div class="dropdown">
+                        <div  class="dropbtn" onclick="myFunction()">MrS.Haseena.K.F</div>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Patient Chart</a>
+    <a href="#">Start Consultation</a>
+    <a href="#">Orders</a>
+    <a href="#">Inactivate Patient</a>
+    <a href="#">Progress Notes</a>
+    <a href="#">POMR</a>
+    <a href="#">Order Printing</a>
+    <a href="#">Infection Recording</a>
+    <a href="#">Infection Recording</a>
+    <a href="#">Marked For Discharge</a>
+    <a href="#">Patient transter</a>
+    <a href="#">Bed Swap</a>
+  </div>
+</div>
+                        
+                        
+                        
+                        <P>SCK, OP-006</P></td>
+                    <td>Venugopal S</td>
+                    <td><p class="red-text">CBC</p></td>
+                    <td><b>Parameter</b></td>
+                    <td>RC</td>
+                    <td><input class="apply-1" type="text" name="" placeholder=""></td>
+                    <td><input class="apply-1" type="text" name="" placeholder=""></td>
+                    <td>Select</td>
+                </tr>
+                
+                <tr>
+                    <td><label><input type="checkbox" name="checkbox" value="value"></label></td>
+                    <td><div class="link-a"><p class="table-text-a"><a href=""><img src="image/table-icon.PNG"></a></p></div></td>
+                    <td><p>HA22111600011|SCK000000112</p>
+                        
+                        
+                        <div class="dropdown">
+                        <div  class="dropbtn" onclick="myFunction()">MrS.Haseena.K.F</div>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Patient Chart</a>
+    <a href="#">Start Consultation</a>
+    <a href="#">Orders</a>
+    <a href="#">Inactivate Patient</a>
+    <a href="#">Progress Notes</a>
+    <a href="#">POMR</a>
+    <a href="#">Order Printing</a>
+    <a href="#">Infection Recording</a>
+    <a href="#">Infection Recording</a>
+    <a href="#">Marked For Discharge</a>
+    <a href="#">Patient transter</a>
+    <a href="#">Bed Swap</a>
+  </div>
+</div>
+                        
+                        
+                        
+                        <P>SCK, OP-006</P></td>
+                    <td>Venugopal S</td>
+                    <td><p class="red-text">CREATININE</p></td>
+                    <td> <input class="appply" type="text" name="" placeholder=""></td>
+                    <td>RC</td>
+                    <td><input class="apply-1" type="text" name="" placeholder=""></td>
+                    <td><input class="apply-1" type="text" name="" placeholder=""></td>
+                    <td>Select</td>
+                </tr>
+                
+                
+                <tr>
+                    <td><label><input type="checkbox" name="checkbox" value="value"></label></td>
+                    <td><div class="link-a"><p class="table-text-a"><a href=""><img src="image/table-icon.PNG"></a></p></div></td>
+                    <td><p>HA22111600011|SCK000000112</p>
+                        
+                        
+                        <div class="dropdown">
+                        <div  class="dropbtn" onclick="myFunction()">MrS.Haseena.K.F</div>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Patient Chart</a>
+    <a href="#">Start Consultation</a>
+    <a href="#">Orders</a>
+    <a href="#">Inactivate Patient</a>
+    <a href="#">Progress Notes</a>
+    <a href="#">POMR</a>
+    <a href="#">Order Printing</a>
+    <a href="#">Infection Recording</a>
+    <a href="#">Infection Recording</a>
+    <a href="#">Marked For Discharge</a>
+    <a href="#">Patient transter</a>
+    <a href="#">Bed Swap</a>
+  </div>
+</div>
+                        
+                        
+                        <P>SCK, OP-006</P></td>
+                    <td>Venugopal S</td>
+                    <td><p class="red-text">PHOSPORUS</p></td>
+                    <td> <input class="appply" type="text" name="" placeholder=""></td>
+                    <td>RC</td>
+                    <td><input class="apply-1" type="text" name="" placeholder=""></td>
+                    <td><input class="apply-1" type="text" name="" placeholder=""></td>
+                    <td>Select</td>
+                </tr>
+                
+                <tr>
+                    <td><label><input type="checkbox" name="checkbox" value="value"></label></td>
+                    <td><div class="link-a"><p class="table-text-a"><a href=""><img src="image/table-icon.PNG"></a></p></div></td>
+                    <td><p>HA22111600013|SCK000000112</p>
+                        
+                        
+                        <div class="dropdown">
+                        <div  class="dropbtn" onclick="myFunction()">Mr.Shoukathali.O.M</div>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">EMR</a>
+    <a href="#">Mandatory Infermation</a>
+    <a href="#">Orders</a>
+    <a href="#">Inactivate Patient</a>
+    <a href="#">Progress Notes</a>
+    <a href="#">POMR</a>
+    <a href="#">Order Printing</a>
+    <a href="#">Infection Recording</a>
+    <a href="#">Infection Recording</a>
+    <a href="#">Marked For Discharge</a>
+    <a href="#">Patient transter</a>
+    <a href="#">Bed Swap</a>
+  </div>
+</div>
+                        
+                        
+                        
+                        <P>SCK, OP-005</P></td>
+                    <td>Venugopal S</td>
+                    <td><p class="red-text">HEMOGLOBIN</p></td>
+                    <td> <input class="appply" type="text" name="" placeholder=""></td>
+                    <td>RC</td>
+                    <td><input class="apply-1" type="text" name="" placeholder=""></td>
+                    <td><input class="apply-1" type="text" name="" placeholder=""></td>
+                    <td>Select</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+</div>
+        </div>
+        <div class="col-md-1">
+         <a href=""><img class="verti-btn" src="image/home.PNG"></a>
+            <a href=""><img class="verti-btnn" src="image/LINKS.PNG"></a>
+            </div>
+        
+        </div> 
+        
+        
+        <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+        
+        
+        </body>
+
+</html>

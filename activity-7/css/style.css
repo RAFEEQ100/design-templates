@@ -1,0 +1,166 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+}
+.section-ab{
+    
+  
+    
+      margin-top: 105px;
+}
+.icon-1{
+    
+     margin-left: 60px;
+}
+.admin{
+    
+    background-color: black;
+   text-align: center;
+     
+         border:0px solid #428bca;
+
+ 
+  margin-bottom: 2px;
+    margin-top: 5px;
+    margin-left: 2px;
+
+}
+.admin a{
+ text-decoration: none;
+    color: white;
+}
+.purchase-div{
+    
+    background-color: #a4acb3;
+}
+#wgtmsr{
+ width:280px;  
+    height: 30px;
+   
+     
+     border:1px solid #c1bdbd;
+ margin: 5px 0px 5px 0px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #eeeeee;
+    font-weight: bold;
+    
+}
+
+
+#wgtmsr option{
+  width:150px;   
+}
+
+.appply{
+    width:280px;  
+    height: 30px;
+    background-color: #eeeeee;
+     border:1px solid #c1bdbd;
+ margin: 5px 0px 0px 0px;
+    border-radius: 5px 5px 5px 5px;
+}
+.apply-1{
+    
+    width:280px;  
+    height: 30px;
+    margin: 5px 0px 5px 0px;
+     border:1px solid #c1bdbd;
+
+    border-radius: 5px 5px 5px 5px;
+}
+#wgtmsrm{
+    
+    width:280px;  
+    height: 30px;
+   
+     margin: 5px 0px 5px 0px;
+     border:1px solid #c1bdbd;
+
+    border-radius: 5px 5px 5px 5px;
+   
+    font-weight: bold;
+}
+#wgtmsrm option{
+  width:150px;   
+}
+.menu-a{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.menu-b{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+#wgtmsrm-a{
+    
+     width:280px;  
+    height: 30px;
+   
+     margin: 5px 0px 5px 0px;
+     border:1px solid #c1bdbd;
+
+    border-radius: 5px 5px 5px 5px;
+   
+    
+}
+.section-3{
+    
+    border:1px solid #c1bdbd;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.text-5{
+
+background-color: #ededed;
+    border:1px solid #c1bdbd;
+    
+       text-align: center;
+    margin-left: 3px;
+}
+.text-5 a{
+    text-decoration: none;
+    color:black;
+}
+.text-52{
+
+background-color: #ededed;
+  
+    border-bottom: 0px solid #c1bdbd;
+    border-top:  1px solid #c1bdbd;
+    border-left:  1px solid #c1bdbd;
+    border-right:  1px solid #c1bdbd;
+    
+       text-align: center;
+    margin-left: 3px;
+}
+.text-52 a{
+    text-decoration: none;
+    color:black;
+}
+
+.bord{
+    
+    background-color: #f3f2f2;
+    border:1px solid #c1bdbd;
+    height: 20px;
+    
+}
+.bored-a{
+    
+    background-color: #fdfdfd;
+    border:1px solid #c1bdbd; 
+}
+.section-e{
+    
+    background-color: #f3f2f2;
+}
+.select{
+    
+    background-color: #a4acb3;
+}
+.bord-2{
+    
+    border:1px solid #c1bdbd; 
+}

@@ -1,0 +1,339 @@
+<!DOCTYPE hrml>
+<html>
+<head>
+    <title>starcare</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="image/logo1.png">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    </head>
+    
+    
+    <body>
+     <style>
+  .navbar {
+      margin-bottom: 0px;
+      background-color: #fff;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 2px;
+      border-radius: 0;
+      font-weight: bold;
+      font-family: Montserrat, sans-serif;
+      height: 100px;
+      border-bottom: 0px solid #b1b5b7;
+      box-shadow: 1px 1px 2px 2px #c9c9c9;
+  }
+  .navbar li a, .navbar .navbar-brand{
+      color: black !important;
+      
+      font-size: 14px;
+      top:17px;
+	  
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #7cdcff!important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+
+  }
+  
+  .ctxt{
+  margin-bottom:15em;
+  }
+    </style>
+        
+        <div class="row">
+        
+         <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <span class="navbar-brand"><img src="image/logo1.png" height="60px" width="100px"></span>
+      <span class="navbar-brand">STARCARE HOSPITAL <br> KOZHIKODE Pvt Ltd</span>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+       
+        <li><a href=""><img src="image/home.PNG" width="75" height="25"></a></li>
+        <li><a href=""><img src="image/tasks.png" width="75" height="25"></a></li>
+        <li><a href=""><img src="image/QUICK.png" width="85" height="25"></a></li>
+        <li><a href=""><img src="image/SETTINGS.png" width="75" height="25"></a></li>
+          <li><a href=""><img src="image/DASH.png" width="75" height="25"></a></li>
+      </ul>
+    </div>
+  </div>
+</nav> 
+        
+        </div>
+        
+        <div class="container-fluid section-ab">
+      <div class="col-md-1"><img class="icon-1" src="image/icon-1.png" height="30px" width="30px;"></div>
+      <div class="col-md-2"><h5 ><b>Patient Care</b></h5></div>
+      <div class="col-md-6"></div>
+      <div class="col-md-1 admin"><a href="">Orthopaedics</a></div>
+      <div class="col-md-1 admin"><a href="">admin</a></div>
+      <div class="col-md-1"></div>
+        </div>
+        
+         
+        
+             <div class="container-fluid">
+        <div class="col-md-3 out-patient">
+           <div class="col-md-3"></div>
+            <a href="">
+           <div class="col-md-1"><img src="image/outpatient.png"></div>                 
+           <div class="col-md-7"><h5>Outpatient</h5></div></a>  
+            
+            
+            
+                 </div>
+            <div class="col-md-3 admitted">
+                <div class="col-md-3"></div> 
+                <a href="">                
+           <div class="col-md-1"><img src="image/admitted%20copy.PNG"></div>                 
+                <div class="col-md-7"><h5>Admitted Patient</h5></div></a> 
+                 </div>
+            <div class="col-md-3 out-patient">
+                 
+                <div class="col-md-3"></div>  
+                <a href="">
+           <div class="col-md-2"><img src="image/date.png"></div>                 
+           <div class="col-md-7"><h5>Referrels</h5></div></a>  
+                 </div>
+            <div class="col-md-3 admitted">
+                 <div class="col-md-3"></div>   
+                <a href="">
+           <div class="col-md-2"><img src="image/appoimt%20copy.PNG"></div>                 
+                    <div class="col-md-7"><h5>My Appoiment</h5></div></a>
+                 
+                 </div>
+            
+            </div>
+        
+        <div class="container-fluid ">
+        <div class="col-md-12 search ">
+        <div class="col-md-10"></div>
+        
+         
+        
+        <div class="col-md-2 section-bcc"><div class="col-md-8"><input class="apply" type="text" name="" placeholder="Search"></div>
+                <div class="col-md-4"><div id='button-holder'>
+                   <a href=""> <img src='image/search-icon-red-md.png' width="25px" height="25px" /></a>
+                    </div></div></div>
+       
+            </div>
+            </div>
+
+       <div class="container-fluid"> 
+        <div class="panel panel-default">
+   
+
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead class="table-row">
+                <tr>
+                    <td><p class="table-text-b">Patient Photo</p></td>
+                    <td><p class="table-text-b">Patient Details(,)</p></td>
+                    <td><p class="table-text-b">Action</p></td>
+                    <td><p class="table-text-b">Session Details</p></td>
+                   <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody class="table-row">
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><p class="table-text-b">Bal.Amt</p></td>
+                    <td><p class="table-text-b">LAB</p></td>
+                    <td><p class="table-text-b">RAD</p></td>
+                    <td><p class="table-text-b">Procedure</p></td>
+                </tr>
+            </tbody>
+            
+            <tbody>
+                <tr>
+                    <td><img src="image/table-icon.PNG"> </td>
+                    <td><div class="dropdown">
+                        <div  class="dropbtn" onclick="myFunction()">Mr.Shobana</div>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#home">Patient Chart</a>
+    <a href="#about">Start Consultation</a>
+    <a href="#contact">Orders</a>
+    <a href="#contact">Inactivate Patient</a>
+    <a href="#contact">Progress Notes</a>
+    <a href="#contact">POMR</a>
+    <a href="#contact">Order Printing</a>
+    <a href="#contact">Infection Recording</a>
+    <a href="#contact">Infection Recording</a>
+    <a href="#contact">Marked For Discharge</a>
+    <a href="#contact">Patient transter</a>
+    <a href="#contact">Bed Swap</a>
+  </div>
+</div>
+                    <P class="table-text-b">FEMALE-72 year </P>
+                    <P class="table-text-b">SCK00000119990 | Dr.Sajan Mohanraj | orthopaedics Under Ip</P>
+                    <P class="table-text-bc"> care service center 095418</P>
+                   
+                    </td>
+                    <td><P class="table-text-b">Select</P></td>
+                    <td><P class="table-text-b">10000.0</P></td>
+                    <td><img src="image/micron.PNG"></td>
+                    <td><img src="image/lab.PNG"></td>
+                    <td><img src="image/ecg.PNG"></td>
+                </tr>
+            </tbody>
+            
+             <tbody>
+                <tr>
+                    <td><img src="image/table-icon.PNG"> </td>
+                    <td><div class="dropdown">
+                        <div  class="dropbtn" onclick="myFunction()">Mr.Ayisha.V.P</div>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#home">Patient Chart</a>
+    <a href="#about">Start Consultation</a>
+    <a href="">Orders</a>
+    <a href="">Inactivate Patient</a>
+    <a href="">Progress Notes</a>
+    <a href="">POMR</a>
+    <a href="">Order Printing</a>
+    <a href="">Infection Recording</a>
+    <a href="">Infection Recording</a>
+    <a href="">Marked For Discharge</a>
+    <a href="">Patient transter</a>
+    <a href="">Bed Swap</a>
+  </div>
+</div>
+                    <P class="table-text-b">FEMALE-48 year </P>
+                    <P class="table-text-b">SCK00000119990 | Dr.Sajan Mohanraj | orthopaedics Under Ip</P>
+                    <P class="table-text-bc"> care service center 095418</P>
+                    
+                    </td>
+                    <td><P class="table-text-b">Select</P></td>
+                    <td><P class="table-text-b">10000.0</P></td>
+                    <td><img src="image/micron.PNG"></td>
+                    <td><img src="image/lab.PNG"></td>
+                    <td><img src="image/ecg.PNG"></td>
+                </tr>
+            </tbody>
+            
+             <tbody>
+                <tr>
+                    <td><img src="image/table-icon.PNG"> </td>
+                    <td><div class="dropdown">
+                        <div  class="dropbtn" onclick="myFunction()">Mr.Asya</div>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Patient Chart</a>
+    <a href="#">Start Consultation</a>
+    <a href="#">Orders</a>
+    <a href="#">Inactivate Patient</a>
+    <a href="#">Progress Notes</a>
+    <a href="#">POMR</a>
+    <a href="#">Order Printing</a>
+    <a href="#">Infection Recording</a>
+    <a href="#">Infection Recording</a>
+    <a href="#">Marked For Discharge</a>
+    <a href="#">Patient transter</a>
+    <a href="#">Bed Swap</a>
+  </div>
+</div>
+                    <P class="table-text-b">FEMALE-60 year </P>
+                    <P class="table-text-b">SCK00000119990 | Dr.Sajan Mohanraj | orthopaedics Under Ip</P>
+                    <P class="table-text-bc"> care service center 095418</P>
+                    
+                    </td>
+                    <td><P class="table-text-b">Select</P></td>
+                    <td><P class="table-text-b">10000.0</P></td>
+                    <td><img src="image/micron.PNG"></td>
+                    <td><img src="image/lab.PNG"></td>
+                    <td><img src="image/ecg.PNG"></td>
+                </tr>
+            </tbody>
+            
+            <tbody>
+                <tr>
+                    <td><img src="image/icon-2.png"> </td>
+                    <td><div class="dropdown">
+                        <div  class="dropbtn" onclick="myFunction()">Ummer</div>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#home">Patient Chart</a>
+    <a href="#about">Start Consultation</a>
+    <a href="#contact">Orders</a>
+    <a href="#contact">Inactivate Patient</a>
+    <a href="#contact">Progress Notes</a>
+    <a href="#contact">POMR</a>
+    <a href="#contact">Order Printing</a>
+    <a href="#contact">Infection Recording</a>
+    <a href="#contact">Infection Recording</a>
+    <a href="#contact">Marked For Discharge</a>
+    <a href="#contact">Patient transter</a>
+    <a href="#contact">Bed Swap</a>
+  </div>
+</div>
+                        
+                    <P class="table-text-b">MALE-50 year </P>
+                    <P class="table-text-b">SCK00000119990 | Dr.Sajan Mohanraj | orthopaedics Under Ip</P>
+                    <P class="table-text-bc"> care service center 095418</P>
+                    
+                    </td>
+                    <td><P class="table-text-b">Select</P></td>
+                    <td><P class="table-text-b">10000.0</P></td>
+                    <td><img src="image/micron.PNG"></td>
+                    <td><img src="image/lab.PNG"></td>
+                    <td><img src="image/ecg.PNG"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+        </div>
+        
+        
+        <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+        
+        
+    
+    
+    </body>
+    
+</html>
